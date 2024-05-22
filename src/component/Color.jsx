@@ -8,9 +8,12 @@ export class Color extends React.Component{
         }
         return(
             <div className="colorcode">
-                <div className="color" style={Style}>                  
+             <span>   
+                 <div className="color" style={Style}>                  
                   <p>{this.props.hexCode}</p>
                 </div>
+                </span>
+
                 
             </div>
         )

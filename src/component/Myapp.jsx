@@ -5,7 +5,7 @@ export class Myapp extends React.Component{
     constructor(){
         super();
         this.state={
-            colorNum:20,
+            colorNum:8,
             colors:[]
         };
         for(let i=0;i<this.state.colorNum;i++){
